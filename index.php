@@ -35,6 +35,6 @@
     $punteggioOspite = $matches[$i]['punteggioOspite'];
 ?>
 
-
+<h2><?php echo $casa?> - <?php echo $ospite?>| <?php echo $punteggioCasa?> - <?php echo $punteggioOspite?></h2>
 
 <?php }?>
